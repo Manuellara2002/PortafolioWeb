@@ -11,7 +11,7 @@ self.addEventListener('install', (event) => {
           "Animaciones.html",
           "Proyectos.html",
           "/JS/Script.js",
-          "/JS/manifest.json",
+          "/manifest.json",
           "CSS/Style.css",
           "CSS/Style2.css",
           "CSS/Style3.css",
