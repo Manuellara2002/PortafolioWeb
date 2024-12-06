@@ -7,9 +7,9 @@ self.addEventListener('install', (event) => {
         return cache.addAll([
           "/",
           "/index.html",
-          "Modelos.html",
-          "Animaciones.html",
-          "Proyectos.html",
+          "/Modelos.html",
+          "/Animaciones.html",
+          "/Proyectos.html",
           "/JS/Script.js",
           "/manifest.json",
           "CSS/Style.css",
