@@ -1,0 +1,208 @@
+body{
+  background-color: #c0d1dddb;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23404040' fill-opacity='0.24'%3E%3Cpath fill-rule='evenodd' d='M5 3.59L1.46.05.05 1.46 3.59 5 .05 8.54l1.41 1.41L5 6.41l3.54 3.54 1.41-1.41L6.41 5l3.54-3.54L8.54.05 5 3.59zM17 2h24v2H17V2zm0 4h24v2H17V6zM2 17h2v24H2V17zm4 0h2v24H6V17z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.navbar{
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 35px;
+}
+
+.Menu{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar-collapse {
+  background-color: #ffffff;
+}
+
+.contenido{
+  margin-top: 125px;
+}
+
+.Icono{
+  width: 50px;
+  cursor: pointer;
+}
+  
+.textos{
+  font-size: 20px;
+  line-height: 40px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 4px;
+  color: rgb(0, 0, 0);
+}
+
+.IFM{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.JMLL{
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+    
+.textos{
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 4px;
+  color: rgb(0, 0, 0);
+}
+
+.Fotos{
+  max-width: 100%;  /* Fijar ancho de las imágenes */
+  object-fit: cover;
+}
+
+.cardPR{
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  max-height: auto;
+  margin: 10px;
+  width: 90%; /* Ajusta el tamaño al 30% del contenedor */
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+  
+.cardPR:hover{
+  transform: translateY(-10px); /* Hace que la tarjeta se mueva hacia arriba */
+  box-shadow: 0 12px 24px rgb(0, 0, 0); /* Aumenta la sombra para dar efecto flotante */
+}
+
+.product-titlePR{
+  font-size: 1.25rem;
+  margin: 10px 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.FM{
+  width: 70%;
+  color: white;
+}
+
+.IM1{
+  text-align: justify;
+  line-height: 30px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.modal-content{
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.577);
+}
+
+.modal-title{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.CAR{
+  color: white;
+}
+
+.card {
+  background-color: #d1d1d184;
+  border-radius: 25px;
+  overflow: hidden;
+  max-height: auto;
+  margin: 10px;
+  width: 20rem; /* Ajusta el tamaño al 30% del contenedor */
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Hace que la tarjeta se mueva hacia arriba */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* Aumenta la sombra para dar efecto flotante */
+}
+
+.Fotos{
+  max-width: 100%;  /* Fijar ancho de las imágenes */
+  object-fit: cover;
+}
+
+.product-title {
+  font-size: 1.25rem;
+  margin: 10px 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  padding: 15px;
+  color: rgb(98, 13, 234);
+}
+
+.nohagasnada{
+  text-decoration: none;
+}
+
+.AP{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+  background-color: #000000;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 4px solid #000000;
+}
+
+.footer-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid #9058ff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.email-link {
+  color: #9058ff;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.email-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Estilos para los botones de redes sociales */
+.social-links .btn {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-links .btn:hover {
+  background-color: #9058ff;
+  color: white;
+}
+
+.social-links .btn i {
+  font-size: 1.5rem;
+}

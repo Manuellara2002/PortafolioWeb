@@ -1,0 +1,20 @@
+{
+  "name": "PortafolioDigitalWeb",
+  "short_name": "Portafolio",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/img/IconoAplicacion.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/IconoAplicacion.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

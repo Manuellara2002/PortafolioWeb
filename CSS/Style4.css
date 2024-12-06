@@ -1,0 +1,225 @@
+body{
+  background-color: rgb(202, 252, 173);
+  background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23000000' fill-opacity='0.07' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.navbar{
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 35px;
+}
+
+.navbar-collapse {
+  background-color: #ffffff;
+}
+
+.Menu{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cont1{
+  margin-top: 130px;
+}
+
+.Icono{
+  width: 50px;
+  cursor: pointer;
+}
+
+.IFM{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.JMLL{
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+    
+.textos{
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 4px;
+  color: rgb(0, 0, 0);
+}
+
+.PRO{
+  font-family: 'Raleway', sans-serif;
+  margin-top: 3%;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.VJ{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.DR{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+  margin-bottom: 5%;
+}
+
+.PS{
+  margin-top: 3%;
+}
+
+.Pers1{
+  max-width: 100%;
+  height: auto;
+}
+
+.Videos{
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  display: block;
+  text-align: justify;
+  border-radius: 15px;
+  margin-top: 10%;
+}
+
+.PRO1{
+  font-family: 'Raleway', sans-serif;
+  margin-top: 3%;
+  font-size: 21px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.PRO2{
+  font-family: 'Raleway', sans-serif;
+  margin-top: 3%;
+  font-size: 21px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.FR{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.PS1{
+  max-width: 90%;
+  height: 140%;
+}
+
+.PS2{
+  max-width: 90%;
+  height: 140%;
+}
+
+.PS3{
+  max-width: 90%;
+  height: 100%;
+}
+
+.PS4{
+  max-width: 90%;
+  height: 100%;
+}
+
+.card {
+  background-color: #d1d1d184;
+  border-radius: 25px;
+  overflow: hidden;
+  max-height: auto;
+  margin: 10px;
+  width: 20rem; /* Ajusta el tamaño al 30% del contenedor */
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Hace que la tarjeta se mueva hacia arriba */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* Aumenta la sombra para dar efecto flotante */
+}
+
+.Fotos{
+  max-width: 100%;  /* Fijar ancho de las imágenes */
+  object-fit: cover;
+}
+
+.product-title {
+  font-size: 1.25rem;
+  margin: 10px 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  padding: 15px;
+  color: rgb(98, 13, 234);
+}
+
+.nohagasnada{
+  text-decoration: none;
+}
+
+.AP{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+  background-color: #000000;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 4px solid #000000;
+}
+
+.footer-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid #9058ff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.email-link {
+  color: #9058ff;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+.email-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Estilos para los botones de redes sociales */
+.social-links .btn {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-links .btn:hover {
+  background-color: #9058ff;
+  color: white;
+}
+
+.social-links .btn i {
+  font-size: 1.5rem;
+}
