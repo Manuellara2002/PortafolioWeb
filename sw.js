@@ -83,10 +83,12 @@ self.addEventListener('fetch', (event) => {
 
       // Si no está en caché, realiza la petición de red
       return fetch(event.request).catch(() => {
-        // Si la petición de red falla, retorna el archivo de respaldo (index.html)
+        // Si la petición de red falla y es un documento, retorna index.html
         if (event.request.destination === 'document') {
           return caches.match('/index.html'); // Página de respaldo
         }
+        // Para otros tipos de solicitudes, puedes manejarlo de otra manera
+        // Por ejemplo, podrías retornar una página de error o un mensaje
       });
     })
   );
