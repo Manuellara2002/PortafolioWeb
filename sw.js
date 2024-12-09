@@ -7,48 +7,46 @@ self.addEventListener('install', (event) => {
         return cache.addAll([
           "/",
           "/index.html",
-          "/Modelos.html",
-          "/Animaciones.html",
-          "/Proyectos.html",
+          "Modelos.html",
+          "Animaciones.html",
+          "Proyectos.html",
           "/JS/Script.js",
           "/manifest.json",
-          "/CSS/Style.css",
-          "/CSS/Style2.css",
-          "/CSS/Style3.css",
-          "/CSS/Style4.css",
-          "/img/FotoPortada.png",
-          "/img/Icono.png",
-          "/img/Logo.gif",
+          "CSS/Style.css",
+          "CSS/Style2.css",
+          "CSS/Style3.css",
+          "CSS/Style4.css",
+          "/img/Anim1.jpg",
+          "/img/Araña.mp4",
           "/img/Aros.jpeg",
           "/img/Cueva.jpg",
           "/img/Escenario.jpg",
-          "/img/Globo.jpg",
-          "/img/Nave.jpg",
-          "/img/Render.jpg",
-          "/img/Pasillo.jpg",
-          "/img/Vacio.jpg",
-          "/img/Araña.mp4",
-          "/img/Globo.mp4",
-          "/img/Nave.mp4",
-          "/img/Taza.mp4",
-          "/img/Personaje2D.jpg",
-          "/img/Personaje2.jpg",
-          "/img/Video1.mp4",
-          "/img/Video3.mp4",
-          "/img/Video4.mp4",
           "/img/Fondo1.png",
           "/img/Fondo2.png",
           "/img/FondoIntro.png",
           "/img/FondoSeleccion.png",
+          "/img/FotoPortada.png",
+          "/img/Globo.jpg",
+          "/img/Globo.mp4",
+          "/img/Icono.png",
+          "/img/IconoAplicacion.png",
+          "/img/Logo.gif",
+          "/img/Modelos.png",
+          "/img/Nave.jpg",
+          "/img/Nave.mp4",
+          "/img/Pasillo.jpg",
+          "/img/Personaje2.jpg",
+          "/img/Personaje2D.jpg",
+          "/img/Proyectos.jpg",
+          "/img/Render.jpg",
+          "/img/Taza.mp4",
+          "/img/Vacio.jpg",
+          "/img/Video1.mp4",
+          "/img/Video3.mp4",
+          "/img/Video4.mp4",
           "/img/Videojuego 2D.mp4",
           "/img/Videojuego 2D2.mp4",
-          "/img/Videojuego 2D3.mp4",
-          "/img/Modelos.png",
-          "/img/Anim1.jpg",
-          "/img/Proyectos.jpg",
-          "/img/IconoAplicacion192.png",
-          "/img/IconoAplicacion.png",
-          "/img/IconoAplicacion144.png"
+          "/img/Videojuego 2D3.mp4"
         ]);
       })
       .catch((err) => {
@@ -83,12 +81,10 @@ self.addEventListener('fetch', (event) => {
 
       // Si no está en caché, realiza la petición de red
       return fetch(event.request).catch(() => {
-        // Si la petición de red falla y es un documento, retorna index.html
+        // Si la petición de red falla, retorna el archivo de respaldo (index.html)
         if (event.request.destination === 'document') {
           return caches.match('/index.html'); // Página de respaldo
         }
-        // Para otros tipos de solicitudes, puedes manejarlo de otra manera
-        // Por ejemplo, podrías retornar una página de error o un mensaje
       });
     })
   );
