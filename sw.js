@@ -16,10 +16,6 @@ self.addEventListener('install', (event) => {
           "/CSS/Style2.css",
           "/CSS/Style3.css",
           "/CSS/Style4.css",
-          "/img/IconoAplicacion192.png",
-          "/img/IconoAplicacion.png",
-          "/img/IconoAplicacion144.png",
-          "/img/Screenshot.png",
           "/img/FotoPortada.png",
           "/img/Icono.png",
           "/img/Logo.gif",
@@ -49,7 +45,10 @@ self.addEventListener('install', (event) => {
           "/img/Videojuego 2D3.mp4",
           "/img/Modelos.png",
           "/img/Anim1.jpg",
-          "/img/Proyectos.jpg"
+          "/img/Proyectos.jpg",
+          "/img/IconoAplicacion192.png",
+          "/img/IconoAplicacion.png",
+          "/img/IconoAplicacion144.png"
         ]);
       })
       .catch((err) => {
