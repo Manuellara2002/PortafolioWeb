@@ -17,20 +17,5 @@
       "sizes": "144x144",
       "type": "image/png"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "description": "Portafolio",
-  "orientation": "any",
-  "scope": "/",
-  "lang": "es",
-  "screenshots": [
-    {
-      "src": "/img/Screenshot.png",
-      "sizes": "1976x1079",
-      "type": "image/png"
-    }
   ]
 }
