@@ -1,19 +1,35 @@
 {
-  "name": "PortafolioDigitalWeb",
-  "short_name": "Portafolio",
-  "start_url": "/index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "short_name": "PortafolioDigitalWeb",
+  "name": "Portafolio",
   "icons": [
     {
-      "src": "/img/IconoAplicacion.png",
+      "src": "/img/IconoAplicacion192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
       "src": "/img/IconoAplicacion.png",
       "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/IconoAplicacion144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "Portafolio",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "es",
+  "screenshots": [
+    {
+      "src": "/img/Screenshot.png",
+      "sizes": "1976x1079",
       "type": "image/png"
     }
   ]
