@@ -1,29 +1,22 @@
 {
-  "short_name": "PortafolioDigitalWeb",
-  "name": "Portafolio",
-  "icons": [
-    {
-      "src": "/img/IconoAplicacion192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/img/IconoAplicacion.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "/img/IconoAplicacion144.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    }
-  ],
-  "start_url": "/Index.html",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "description": "Portafolio",
-  "orientation": "any",
-  "scope": "/",
-  "lang": "es"
-}
+    "name": "Portfolio Curricular",
+    "short_name": "Portfolio",
+    "description": "Una muestra interactiva y profesional de mi trabajo y experiencia.",
+    "start_url": "/Index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "/img/IconoAplicacion192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/IconoAplicacion.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  
